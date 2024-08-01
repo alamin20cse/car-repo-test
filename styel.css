@@ -104,3 +104,49 @@ border-radius: 39px;
     color: white;
     margin: auto;
 }
+
+.section-2
+{
+    background: rgb(6, 24, 10);
+}
+.section-2-des
+{
+    color: aqua;
+    font-size: 64;
+    text-align: center;
+}
+.car-card
+{
+    width: 420px;
+    height: max-content;
+    border: 10px solid rgb(54, 41, 95);
+    border-radius: 15px;
+}
+.car-card-img img
+{
+    height: 350px;
+    width: 350px;
+    border-radius: 15px;
+    border: 1px solid rgb(24, 176, 42);
+    margin-left: 30px;
+}
+.car-card-des2
+{
+    display: flex;
+    justify-content: space-between;
+    color: wheat;
+}
+.btn1
+{
+    height: 50px;
+    width: 100px;
+    border-radius: 42px;
+    color: white;
+
+background: rgb(230, 83, 60);
+}
+.section-2-cardviwe-main
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
